@@ -1,0 +1,45 @@
+#mysql连接配置
+mysql:
+  DBType: mysql
+  Username: root
+  Password: root
+  Host: 127.0.0.1:3306
+  DBName: douyin
+  TablePrefix: dy_
+  Charset: utf8
+  ParseTime: True
+  MaxIdleConns: 10
+  MaxOpenConns: 30
+
+#redis配置
+redis:
+  url: 127.0.0.1:6379
+  password: root
+  database: 1  # using database 1
+
+#gin配置
+server:
+  runMode: debug
+  port: 8080
+  ReadTimeout: 60
+  WriteTimeout: 60
+  
+#log日志的配置
+log:
+  level: debug
+  log_path: storage/logs
+  filename: douyin.log
+  max_size: 200 #最大文件大小
+  max_age : 60  #存放时间
+  max_backups: 5 #最大的备份数
+
+#OSS配置
+oss:
+  endpoint: https://oss-cn-shanghai.aliyuncs.com
+  accessKeyId: LTAI5tS7YFizYzW9d2YPT7sc
+  accessKeySecret: gokYbeTHZ6PmRECLBw9NeEB598g2hn
+  bucketName: yezzyzzz
+  targetPath: douyin/video/
+  targetUrl: https://yezzyzzz.oss-cn-shanghai.aliyuncs.com #配置回传视频地址前缀
+
+
