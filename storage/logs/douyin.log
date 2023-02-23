@@ -260,3 +260,10 @@
 2023-02-22T19:42:45.520+0800	ERROR	Error in Chat!
 2023-02-22T19:42:50.533+0800	ERROR	Error in Chat!
 2023-02-22T19:45:30.363+0800	ERROR	Error in Chat!
+2023-02-23T10:57:17.607+0800	ERROR	创建用户失败!	{"error": "用户已经存在"}
+2023-02-23T10:58:43.595+0800	ERROR	创建用户失败!	{"error": "用户已经存在"}
+2023-02-23T10:59:02.844+0800	ERROR	logic.Login failed	{"username": "test11", "error": "密码错误"}
+2023-02-23T11:00:52.202+0800	ERROR	创建用户失败!	{"error": "用户已经存在"}
+2023-02-23T11:03:26.096+0800	ERROR	创建用户失败!	{"error": "用户已经存在"}
+2023-02-23T11:03:40.398+0800	ERROR	logic.Login failed	{"username": "testAA", "error": "密码错误"}
+2023-02-23T11:04:58.339+0800	WARN	already followed
